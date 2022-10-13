@@ -1,0 +1,72 @@
+.main-body{
+    background-color: #f8f7fd;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+.heading{
+    font-size: 44px;
+    font-weight: bolder;
+}
+.header{
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.input{
+    height: 30px;
+    width: 178px;
+    margin-top: 20px;
+    margin-left: 300px;
+    border: 2px solid #beb8b8;
+    border-radius: 4px;
+    outline: none;
+    color: #9d9a9a;
+}
+::placeholder{
+    font-weight: bold;
+    color: #9d9a9a;
+    padding-left: 4px;
+}
+.select{
+    margin-right: 50px;
+    margin-left: 35px;
+    color: black;
+    font-weight: bold;
+    border: none;
+    font-size: 16px;
+    outline: none;
+}
+.filter{
+    display: flex;
+    background-color: white;
+    border-radius: 4px;
+    width: 1000px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.label{
+    color: #9d9a9a;
+    margin-left: 40px;
+}
+.btn{
+    background-color: #7065ef;
+    color: white;
+    border: none;
+    font-weight: bold;
+    padding: 12px 25px 12px 25px;
+    border-radius: 8px;
+    margin-left: 28px;
+    margin-top: 4px;
+}
+.card-item-container{
+    margin-top: 30px;
+    display: flex;
+    width: 1000px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.fav{
+    margin-left: 450px;
+    margin-bottom: 25px;
+    margin-right: auto;
+}
